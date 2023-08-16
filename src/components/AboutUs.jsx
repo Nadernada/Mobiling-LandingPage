@@ -11,19 +11,19 @@ const AboutUs = () => {
       </div>
       <div className='grid grid-cols-2 md:w-[80%] lg:w-2/5 bg-[#E3E6E9] rounded-[30px] items-center justify-between gap-[24px] md:gap-y-[50px] lg:gap-0 p-5'>
         <div className='flex flex-col justify-center items-center'>
-          <img src='./assets/car.svg' alt='car' className={`${styles.iconsMd}`} />
+          <img src='/Mobiling-LandingPage/car.svg' alt='car' className={`${styles.iconsMd}`} />
           <p className={`text-[14px] leading-[16px] w-full ${styles.InfoText}`}>From business to Luxuryclass</p>
         </div>
         <div className='flex flex-col justify-center items-center'>
-          <img src='./assets/location-pin.svg' alt='location-pin' className={`${styles.iconsMd}`} />
+          <img src='/Mobiling-LandingPage/location-pin.svg' alt='location-pin' className={`${styles.iconsMd}`} />
           <p className={`text-[14px] leading-[16px] w-full ${styles.InfoText}`}>125 Location in Indonesia</p>
         </div>
         <div className='flex flex-col justify-center items-center'>
-          <img src='./assets/Touchscreen.svg' alt='touchscreen' className={`${styles.iconsMd}`} />
+          <img src='/Mobiling-LandingPage/Touchscreen.svg' alt='touchscreen' className={`${styles.iconsMd}`} />
           <p className={`text-[14px] leading-[16px] w-full ${styles.InfoText}`}>Convenient Online Book</p>
         </div>
         <div className='flex flex-col justify-center items-center'>
-          <img src='./assets/Clock.png' alt='clock' className={`${styles.iconsMd}`} />
+          <img src='/Mobiling-LandingPage/Clock.png' alt='clock' className={`${styles.iconsMd}`} />
           <p className={`text-[14px] leading-[16px] w-full ${styles.InfoText}`}>24/7 Exclusive On the road</p>
         </div>
       </div>
