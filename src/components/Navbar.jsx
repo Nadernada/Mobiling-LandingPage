@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className='w-full h-[120px] py-[36px] lg:px-[80px] xl:px-[140px] px-[50px] flex justify-between items-center '>
       <div className='flex flex-row justify-center items-center'>
-        <img src='/Nadernada/logo-colored.svg' className='w-[30px] h-[34px] object-contain mr-[12px]' />
+        <img src='.../public/logo-colored.svg' className='w-[30px] h-[34px] object-contain mr-[12px]' />
         <div className='flex flex-col justify-start'>
           <h3 className='text-[20px] font-medium text-blue-600 leading-[25px] mb-[5px]'>Mobiling</h3>
           <p className='text-[12px] font-light text-mid leading-[15px]'>Automobile</p>
