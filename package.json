@@ -2,7 +2,7 @@
   "name": "react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/Mobiling-LandingPage",
+  "homepage": "https://Nadernada.github.io/Mobiling-LandingPage",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
