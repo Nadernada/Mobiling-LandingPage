@@ -1,8 +1,44 @@
-# React + Vite
+# Mobiling React Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Mobiling React Landing Page project! This project aims to provide a modern and engaging landing page for a car service business.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Usage](#usage)
+- [Styling](#styling)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+Follow these instructions to get the project up and running on your local machine.
+
+1. Clone this repository: `git clone https://github.com/Nadernada/Mobiling-LandingPage.git`
+2. Navigate to the project directory: `cd Mobiling-LandingPage`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit: `http://localhost:3000`
+
+## Features
+- Responsive layout for various screen sizes
+- Smooth animation for better experience
+- Information about car services offered
+- ...
+
+## Usage
+You can re-utilize the dynamic components throughout the project such as the nav links 
+
+### Styling
+Used tailwindcss library
+
+## Contributing
+We welcome contributions! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature-name`
+3. Make your changes and commit: `git commit -am 'Add new feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Create a pull request
+
+## License
+This project is licensed under the [MIT License](LICENSE).
