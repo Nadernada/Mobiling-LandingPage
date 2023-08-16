@@ -3,6 +3,10 @@ import React from 'react'
 const NavLinks = ({title, subtitles, index, active, handleClick}) => {
   return (
     <div className={`${active===index ? 'border-b-dark border-b-[2px]' : ''} flex flex-row justify-between px-[24px] py-[12px] cursor-pointer transition-all relative group`} onClick={() =>handleClick(index)}>
+      
+        {/* if the nav link has sublinks then we add the dropdown */}
+        {/* we also set the logic for handling the active element */}
+      
         {subtitles ? (
             <div className=' flex flex-col lg:flex-row justify-between items-center  my-[10px] lg:my-0'>
               <div className='flex flex-row items-center'>

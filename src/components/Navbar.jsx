@@ -18,6 +18,10 @@ const Navbar = () => {
       </div>
       <div className={`${isOpen ? 'scale-100 rounded-0 opacity-100' : 'scale-0 lg:scale-100  rounded-l-[200px] opacity-0 lg:opacity-100'} bg-blue-800 lg:bg-transparent w-full absolute lg:relative h-max z-20 top-0 left-0 flex flex-col lg:flex-row justify-center items-center py-[100px] transition-all duration-300 origin-top-right`}>
         <div className='flex flex-col lg:flex-row justify-center items-center lg:mx-auto' >
+
+          {/* An example of how we can use map to showcase our navigation links which are stored in a separate js file for better maintenance */}
+          {/* We can just add the link and sublinks to the js object and they'll be added automatically */}
+
           {navLinks.map((nav, index) => (
             <NavLinks {...nav} key={index} index={index} active={active} handleClick={setActive}/>
           ))}
